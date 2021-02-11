@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html5>
+<head>
+    <title>Mi Página web</title>
+    <link rel="stylesheet" type="text/css" href="style.css"></li>
+</head>
+<body>
+
+<div class="row">
+   <div id="templatemo_contact" class="col-md-4 gallery-contact">
+</div>
+   <div class="col-md-8 templatemo_contactform">
+   <div class="templatemo_contacttitle">CONTACTO</div>
+    <div class="templatemo_sub_contacttitle">Si requieres un subtitulo escribelo aquí</div>
+        <p> Escribe aquí el mensaje que quieres presentar si es necesario.</p>
+
+   <form name="contact" method="POST" data-netlify="true">
+  <p>
+    <label>Your Name: <input type="text" name="name" /></label>   
+  </p>
+  <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <label>Your Role: <select name="role[]" multiple>
+      <option value="leader">Leader</option>
+      <option value="follower">Follower</option>
+    </select></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
+    </div>
+
+</body>
+</html>
